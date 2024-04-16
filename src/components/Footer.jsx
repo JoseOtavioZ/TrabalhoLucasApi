@@ -7,7 +7,7 @@ const StyledFooter = styled.footer`
 `
 
 const Footer = () => {
-    return <StyledFooter> Rodapé</StyledFooter>;
+    return <StyledFooter className="head" > Unipar 2024</StyledFooter>;
 };
 
 

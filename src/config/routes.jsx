@@ -8,7 +8,7 @@ import Home from "../pages/Home";
 function Rotas() {
     return (
         <Routes>
-            <Route path="/Home" element={<Home />} > </Route>
+            <Route path="/" element={<Home />} > </Route>
             <Route path="/AdicionarPost" element={<AdicionarPost />}> </Route>
             <Route path="/ListaPost" element={<ListaPost />}> </Route>
         </Routes>
